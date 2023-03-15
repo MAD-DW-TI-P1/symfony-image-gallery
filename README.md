@@ -2,7 +2,7 @@
 
 # CRUD de imágenes con Symfony
 
-Todo proyecto crece y es mejor utilizar un framework de calidad como Symfony que está muy bien construido, es Open Source y sigue los mejoras y más actuales paradigmas de programación MVC
+Todo proyecto crece y es mejor utilizar un framework de calidad como Symfony que está muy bien construido, es Open Source y sigue los mejores y más actuales paradigmas de programación: MVC
 
 Utilizo Bootrstrap por simplificar el proceso de maquetación
 
@@ -29,7 +29,7 @@ Utilizo JS y Tooltipster para la validaciones
 
 # Configuración y creación de entidades
 
-- Instalar dependencias. composer install
+- Instalar y actualizar dependencias. composer update
 - Modificamos el .env para que genere un sqlite (https://www.sqlite.org/index.html)
 - php bin/console doctrine:schema:update --force (Actualizamos la base de datos)
 - Ejecutar el servidor:  symfony server:start
