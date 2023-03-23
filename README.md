@@ -18,7 +18,7 @@ Utilizo JS y Tooltipster para la validaciones
 
 # Pasos para la instalación de Symfomy y paquetes
 
-- new symfony users  --version=5.4
+- symfony new image-gallery  --version=5.4
 - composer require symfony/orm-pack (Sin docker)
 - composer require symfony/maker-bundle
 - composer require form validator twig-bundle security-csrf annotations
